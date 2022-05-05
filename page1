@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Final Project</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="HomePage.css">
 </head>
+    <body>
 
-<body>
-<div id="myDiv">
-<p>
-   This is a paragraph inside a div.
-</p>
+    <section class="header">
+    <script id="replace_with_navbar" src="nav.js"></script>    
+    <div>
+    <a href="index.html"><img id="Crest" src="MizzouCrest.png" alt="MU Crest"></a>
 
-</div>
-</body>
-
+    </div>
+        
+    <div class="text-box">
+        <h1>Welcome to Engineering at Mizzou</h1>
+        <p>Discover What's Possible, Choose Your Future</p>
+          <p class ="buttonwrap">
+    <a href="history.html" class="button">Click Here to Start Tour</a>
+   </p>
+        
+    </div>
+        
+    </section>
+  
+    </body>
+    
 </html>
